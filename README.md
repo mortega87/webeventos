@@ -1,4 +1,4 @@
-Django on OpenShift
+Django on OpenShift   
 ===================
 
 This git repository helps you get up and running quickly w/ a Django
@@ -41,7 +41,7 @@ Running on OpenShift
 Create an account at https://www.openshift.com
 
 Install the RHC client tools if you have not already done so:
-    
+
     sudo gem install rhc
     rhc setup
 
@@ -59,9 +59,9 @@ Then push the repo upstream
 
     git push
 
-Now, you have to create [admin account](#admin-user-name-and-password), so you 
+Now, you have to create [admin account](#admin-user-name-and-password), so you
 can setup your Django instance.
-	
+
 That's it. You can now checkout your application at:
 
     http://django-$yournamespace.rhcloud.com
