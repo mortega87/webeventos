@@ -1,7 +1,7 @@
 # .travis.yml
 branches:
   only:
-    - develop
+    - master
 
 language: python
 
