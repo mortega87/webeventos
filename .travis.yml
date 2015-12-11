@@ -19,7 +19,7 @@ install:
   - pip install mysql-python
 
 script:
-  - wsgi/myproject/manage.py
+  - python wsgi/myproject/manage.py
 
 deploy:
   provider: openshift
