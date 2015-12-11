@@ -1,0 +1,31 @@
+# .travis.yml
+branches:
+  only:
+    - develop
+
+language: python
+
+before_script:
+  - mysql -e 'create database webeventos;'
+
+python:
+  - "2.7"
+
+env:
+  - DJANGO=1.5
+
+install:
+  - pip install Django
+  - pip install mysql-python
+
+script:
+  - python webeventos_app/manage.py
+
+deploy:
+  provider: openshift
+  app: webeventos
+  user: eventosweb2015@gmail.com
+  domain: events2015
+  password: marioangel
+  on:
+    all_branches: true
