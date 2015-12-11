@@ -19,7 +19,7 @@ install:
   - pip install mysql-python
 
 script:
-  - python webeventos_app/manage.py
+  
 
 deploy:
   provider: openshift
