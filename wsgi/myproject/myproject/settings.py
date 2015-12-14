@@ -94,6 +94,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         # GETTING-STARTED: change 'db.sqlite3' to your sqlite3 database:
         'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
+        'USER': 'root',
+        'PASSWORD': 'root',
     }
 }
 
