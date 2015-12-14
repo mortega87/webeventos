@@ -11,8 +11,9 @@ from django.template.context import RequestContext
 def index(request):
     # posts = Post.objects.filter(published_date__isnull=False).order_by('published_date')
     # activa_index = True
-    return render_to_response('index.html', context_instance=RequestContext(request))
+    data ={titulo: 'WebEventos'}
+    return render_to_response('index.html', context_instance=RequestContext(request),data)
 
 def login(request):
-    print('por aqui')
+
     return render_to_response('popup.html', context_instance=RequestContext(request))
