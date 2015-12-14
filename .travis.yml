@@ -20,7 +20,7 @@ install:
 
 script:
   - python wsgi/myproject/manage.py
-  - python wsgi/myproject/manage.py syncdb
+
 
 deploy:
   provider: openshift
