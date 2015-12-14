@@ -23,7 +23,7 @@ script:
 
 deploy:
   provider: openshift
-  app: webeventos
+  app: webeventos2015
   user: eventosweb2015@gmail.com
   domain: events2015
   password: marioangel
