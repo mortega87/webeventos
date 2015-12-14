@@ -93,8 +93,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'webeventos',
-        'USER': 'adminfkWF6Kg',
-        'PASSWORD': 'CCLY-PxRV3b1',
+        'USER': 'adminakFiDsX',
+        'PASSWORD': 'Ubi1dy96VzpZ',
         'HOST': '$OPENSHIFT_MYSQL_DB_HOST',   # Or an IP Address that your DB is hosted on
         'PORT': '$OPENSHIFT_MYSQL_DB_PORT',
     }
