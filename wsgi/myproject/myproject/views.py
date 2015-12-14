@@ -12,7 +12,7 @@ def index(request):
     # posts = Post.objects.filter(published_date__isnull=False).order_by('published_date')
     # activa_index = True
     titulo= 'WebEventos'
-    return render_to_response('index.html',{'titulo':titulo}, context_instance=RequestContext(request))
+    return render_to_response('base.html',{'titulo':titulo}, context_instance=RequestContext(request))
 
 def login(request):
 
