@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'webeventos',
+        'NAME': 'webeventos2015',
         'USER': 'adminakFiDsX',
         'PASSWORD': 'Ubi1dy96VzpZ',
-        'HOST': '$OPENSHIFT_MYSQL_DB_HOST',   # Or an IP Address that your DB is hosted on
-        'PORT': '$OPENSHIFT_MYSQL_DB_PORT',
+        'HOST': '127.8.113.2',      #$OPENSHIFT_MYSQL_DB_HOST',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',         #'$OPENSHIFT_MYSQL_DB_PORT',
     }
 }
 
