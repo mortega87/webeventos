@@ -17,3 +17,7 @@ def index(request):
 def login(request):
 
     return render_to_response('popup.html', context_instance=RequestContext(request))
+
+def about(request):
+    titulo= 'About - WebEventos'
+    return render_to_response('bloques/about.html', {'titulo':titulo}, context_instance=RequestContext(request))
